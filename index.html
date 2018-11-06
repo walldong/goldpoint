@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> Gold Point </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+ </head>
+
+ <body>
+  <div class="header">
+	<h1>Gold Point</h1>
+  </div>
+  <div class="content">
+	<div class="col-lg-6 play">
+            <div class="input-group">
+               <input type="text" class="form-control" id="P_num">
+               <span class="input-group-btn">
+                  <button class="btn btn-default" type="button" onclick="CreatBox()">
+                     游戏人数
+                  </button>
+               </span>
+            </div>
+	</div>
+	<button type="button" class="btn btn-default" onclick="next()">开始游戏</button>
+	<button type="button" class="btn btn-default" onclick="back()">上一局</button>
+	<div class="con">
+		<div id="Box_num">
+		</div>
+		<div id="result">
+		</div>
+		<div id="result2">
+		</div>
+	</div>
+  </div>
+ </body>
+</html>
